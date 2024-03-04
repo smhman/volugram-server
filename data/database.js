@@ -1,10 +1,10 @@
 import mysql from 'mysql2/promise';
 
 const config = {
-  host: '',
-  user: '',
-  password: '',
-  database: '',
+  host: 'd115838.mysql.zonevs.eu',
+  user: 'd115838_volugram',
+  password: 'Kartul12321',
+  database: 'd115838_volugram',
   waitForConnections: true,
   connectionLimit: 0, // This will cause preflight requests to fail if set under a limit of 10 or so
   queueLimit: 0,
